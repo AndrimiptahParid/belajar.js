@@ -51,3 +51,4 @@ let mhs4 = new Mahasiswa(
   "teknologi informasi",
   "andri@gmail.com",
 );
+l
