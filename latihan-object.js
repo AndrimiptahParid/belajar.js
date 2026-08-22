@@ -42,7 +42,7 @@ function Mahasiswa(nama, nrp, jurusan, email) {
   this.nama = nama;
   this.nrp = nrp;
   this.jurusan = jurusan;
-  this.email = email;
+  this.email = email; 
   //return this;
 }
 let mhs4 = new Mahasiswa(
