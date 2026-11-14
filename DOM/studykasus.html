@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="angka1" placeholder="masukan angka pertama"/>
+    <input type="number" id="angka2" placeholder="masukan angka kedua"/>
+    <button id="hitung">Hitung</button>
+    <p id="hasil"></p>
+
+    <script>
+        const angka1 = document.getElementById('angka1');
+        const angka2 = document.getElementById('angka2');
+        const hitung = document.getElementById('hitung');
+        const hasil = document.getElementById('hasil');
+
+        hitung.addEventListener('click', function(){
+            const a = parseFloat(angka1.value);
+            const b = parseFloat(angka2.value);
+            const total = a + b;
+            hasil.textContent = `hasil penjumlahan dari ${a} + ${b} adalah ${total}`;
+        });
+    </script>
+</body>
+</html>
